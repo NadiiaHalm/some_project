@@ -143,6 +143,10 @@ def load_address_book(filename):
         print("Error: Failed to load the address book")
 
 
+def greeting():
+    print('Hello!')
+
+
 if __name__ == "__main__":
     book = AddressBook()
 
